@@ -6,6 +6,8 @@
 #To install it, use cpan :
 #install REST::Client
 #
+# Telling Nagios to NOT use the embedded Perl interpreter (http://nagios.sourceforge.net/docs/3_0/embeddedperl.html)
+# nagios: -epn
 
 use warnings;
 use utf8;
